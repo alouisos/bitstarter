@@ -5,7 +5,7 @@ var app = express.createServer(express.logger());
 app.get('/', function(request, response) {
   response.send(data);
 
-fs = require(`'fs')
+fs = require('fs')
 fs.readFile('~/bitstarter/index.html', 'utf8', function (data) {
 //  if (err) {
   //  return console.log(err);
